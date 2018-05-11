@@ -15,7 +15,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+days/07-09-data-structures/code/Libs/
 lib64/
 parts/
 sdist/
@@ -105,3 +105,4 @@ ENV/
 days/91-93-sqlalchemy/demo/persistent_rps/db/rock_paper_scissors.sqlite
 days/91-93-sqlalchemy/demo/persistent_rps_starter/.vscode/settings.json
 rock_paper_scissors.sqlite
+.pytest_cache/
