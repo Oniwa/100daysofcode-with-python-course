@@ -106,3 +106,5 @@ days/91-93-sqlalchemy/demo/persistent_rps/db/rock_paper_scissors.sqlite
 days/91-93-sqlalchemy/demo/persistent_rps_starter/.vscode/settings.json
 rock_paper_scissors.sqlite
 .pytest_cache/
+
+days/64-66-email-smtplib/code/credentials\.py

@@ -5,9 +5,11 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from_addr = 'pybitesblog@gmail.com'
-to_addr = 'pybitesblog@gmail.com'
-bcc = ['pybitesblog@gmail.com', 'myemail@gmail.com', 'email@gmail.com']
+from credentials import password
+
+from_addr = 'jdbarks@gmail.com'
+to_addr = 'jdbarks@gmail.com'
+bcc = ['jdbarks@gmail.com', 'streakerv102@hotmail.com']
 
 msg = MIMEMultipart()
 msg['From'] = from_addr
@@ -28,7 +30,7 @@ smtp_server.ehlo()
 
 smtp_server.starttls()
 
-smtp_server.login(' pybitesblog@gmail.com ', ' <application id> ')
+smtp_server.login(' jdbarks@gmail.com ', password)
 
 text = msg.as_string()
 

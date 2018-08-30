@@ -1,6 +1,7 @@
 from actors import Creature, Wizard, Dragon
 import random
 
+
 def main():
     print_header()
     game_loop()

@@ -3,8 +3,10 @@
 
 import smtplib
 
-from_addr = 'pybitesblog@gmail.com'
-to_addr = 'pybitesblog@gmail.com'
+from credentials import password
+
+from_addr = 'jdbarks@gmail.com'
+to_addr = 'jdbarks@gmail.com'
 
 body = """New Releases and Sales on Steam
     
@@ -18,7 +20,7 @@ smtp_server.ehlo()
 
 smtp_server.starttls()
 
-smtp_server.login(' pybitesblog@gmail.com ', ' <application id> ')
+smtp_server.login(' jdbarks@gmail.com ', password)
 
 smtp_server.sendmail(from_addr, to_addr, body)
 
